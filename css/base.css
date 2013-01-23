@@ -1,0 +1,32 @@
+@charset "utf-8"
+/* initial settings */
+html, body, h1, ul, li,
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ul {
+  list-style: square;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+body {
+  font: 18px/26px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Sans-Serif;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #39f;
+}
+
