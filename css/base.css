@@ -30,3 +30,6 @@ a:active {
   color: #39f;
 }
 
+header h1 {
+  text-align: center;
+}
