@@ -33,3 +33,7 @@ a:active {
 header h1 {
   text-align: center;
 }
+
+.inner-box {
+  padding: 1em
+}
