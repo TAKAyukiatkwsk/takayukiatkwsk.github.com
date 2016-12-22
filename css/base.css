@@ -37,3 +37,7 @@ header h1 {
 .inner-box {
   padding: 1em
 }
+
+img.icon {
+  margin: auto;
+}
