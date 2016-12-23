@@ -23,6 +23,7 @@ a {
 }
 body {
   font: 18px/26px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Sans-Serif;
+  color: #555;
 }
 a:hover,
 a:focus,
@@ -30,3 +31,24 @@ a:active {
   color: #39f;
 }
 
+header {
+  border-bottom-color: #e5e5e5;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.inner-box {
+  padding: 1em
+}
+
+img.icon {
+  margin: auto;
+}
+
+.menu-width {
+  display: inline-block;
+}
