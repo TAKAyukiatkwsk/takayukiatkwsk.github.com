@@ -1,7 +1,10 @@
-@charset "utf-8"
+@charset "utf-8";
+
 /* initial settings */
-html, body, h1, ul, li,
-{
+html,
+body,
+ul,
+li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,9 +13,11 @@ html, body, h1, ul, li,
   vertical-align: baseline;
   background: transparent;
 }
+
 ul {
   list-style: square;
 }
+
 a {
   margin: 0;
   padding: 0;
@@ -21,10 +26,12 @@ a {
   background: transparent;
   text-decoration: none;
 }
+
 body {
-  font: 18px/26px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Sans-Serif;
+  font: 18px/26px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Sans-Serif;
   color: #555;
 }
+
 a:hover,
 a:focus,
 a:active {
@@ -42,7 +49,7 @@ header h1 {
 }
 
 .inner-box {
-  padding: 1em
+  padding: 1em;
 }
 
 img.icon {
